@@ -14,14 +14,7 @@ So, what happens when you run `ruby runner.rb`
 
 ### Whats next?
 - Clone popular repos
-- install zsh
-- setup vim
-- setup emacs
-- tweaks to iterm2 profile
 - vpn setup
-- ruby setup
-- clojure setup
-- golang setup
 - docker
 
 ### Manual Steps
@@ -41,6 +34,7 @@ So, what happens when you run `ruby runner.rb`
 - Install golang from https://golang.org/doc/install
 - Install java using `brew install openjdk` and add openjdk to PATH
 - Install clojure using `brew install clojure/tools/clojure`
+- Add `set clipboard=unnamed` to ~/.vimrc
 
 ### Gotchas
 - defaults delete com.googlecode.iterm2 got me out of iterm crashes because of invalid profile
