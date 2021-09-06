@@ -31,6 +31,10 @@ def setup_emacs
   system('brew install emacs')
 end
 
+def setup_gcloud
+  system('brew install --cask google-cloud-sdk')
+end
+
 create_workspace
 on_success "created_workspace"
 
@@ -48,3 +52,6 @@ on_success 'installed janus for vim'
 
 setup_emacs
 on_success 'installed emacs'
+
+setup_gcloud
+on_success 'installed gcloud'
