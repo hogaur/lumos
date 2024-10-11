@@ -21,7 +21,7 @@ So, what happens when you run `ruby runner.rb`
 - Install xcode command line tools using `xcode-select --install` & verify using `xcode-select -p`
 - Hotkey setup for iterm2
 - Theme selection for iterm2, transparency, and resume dir from last session
-- Use left option as Esc+
+- Use left option as Esc+ and select natural text editing in Profile > Keys > Key Mappings
 - Adjust repeat rate and delay rate for keyboard in systems preferences
 - Open Rectangle, and use spectalular settings
 - Open Kap, and be ready to record your screen for videos, and gifs
